@@ -1,7 +1,7 @@
 class Product < ApplicationRecord
 
-  validates :title, persistence: true
-  validates :description, persistence: true
-  validates :stock_quantity, persistence: true
+  validates :title, presence: true
+  validates :description, presence: true
+  validates :stock_quantity, presence: true
 
 end
