@@ -1,4 +1,7 @@
 <h1>Products</h1>
+<b>Total Number Of Products: </b> <%=@total_number_of_products%><br>
+<b>Average Price Of Products: </b> <%=@average_price%><br>
+<b>Total stock quantity of all products: </b> <%=@total_quantity%>
 <ul>
 <% @all_products.each do |p|%>
   <li><%= p.title%></li>
